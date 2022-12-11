@@ -33,12 +33,12 @@
       "owner": "khoih-prog",
       "name": "ESP_DoubleResetDetector",
       "version": ">=1.3.2",
-      "platforms": ["espressif8266", "espressif32"]
+      "platforms": ["espressif32"]
     }
   ],
   "license": "MIT",
   "frameworks": "*",
-  "platforms": ["espressif8266", "espressif32"],
+  "platforms": ["espressif32"],
   "examples": "examples/*/*/*.ino",
   "headers": ["ESP32_W5500_Manager.h", "ESP32_W5500_Manager.hpp"]
 }

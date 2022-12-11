@@ -1581,7 +1581,7 @@ void loop()
     Serial.println(F("\nConfiguration portal requested."));
     digitalWrite(LED_BUILTIN, LED_ON); // turn the LED on by making the voltage LOW to tell us we are in configuration mode.
 
-    //Local intialization. Once its business is done, there is no need to keep it around
+    //Local initialization. Once its business is done, there is no need to keep it around
     // Use this to default DHCP hostname to ESP32-XXXXXX
     //ESP32_W5500_Manager ESP32_W5500_manager;
     // Use this to personalize DHCP hostname (RFC952 conformed)
